@@ -23,7 +23,7 @@
 
     <!-- 底部版权 -->
     <footer class="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-      <p>© {{ currentYear }} SparkLink · 我的网络名片</p>
+      <p>© {{ currentYear }} SparkLink · MQY的网络名片</p>
     </footer>
   </div>
 </template>
