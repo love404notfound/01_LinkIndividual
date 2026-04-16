@@ -11,12 +11,11 @@
       <p class="text-gray-600 dark:text-gray-400 text-center">前端开发者 · 正在构建我的网络名片</p>
     </div>
 
-    <!-- 链接按钮列表 -->
+    <!-- 创建的LinkButton组件修饰a标签 -->
     <div class="flex flex-col gap-3">
       <LinkButton v-for="link in links" :key="link.id" :link="link" />
     </div>
 
-    <!-- 社交图标行（可选） -->
     <div class="flex justify-center gap-4 mt-8">
       <a
         v-for="social in socials"
@@ -43,7 +42,7 @@ interface SocialItem {
   name: string
   url: string
   enabled: boolean
-  icon: LucideIcon // lucide-vue-next 导出的图标组件类型
+  icon: LucideIcon
 }
 
 // 定义链接按钮的类型
